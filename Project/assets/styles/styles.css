@@ -1,0 +1,138 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+h1.title {
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.-section {
+    flex: 1;
+    padding: 20px;
+    background-color: green;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.styled-list {
+    list-style: none;
+    padding: 0;
+}
+
+.styled-list li {
+    margin-bottom: 10px;
+}
+
+.styled-list li img {
+    float: right;
+    margin-left: 10px;
+}
+
+.styled-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.styled-bold {
+    font-weight: bold;
+}
+
+.styled-italic {
+    font-style: italic;
+}
+
+.styled-link {
+    color: white;
+    text-decoration: underline;
+}
+
+#form-section form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#form-section fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+#form-section label {
+    
+    margin-bottom: 8px;
+}
+
+#form-section input,
+#form-section select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#form-section input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: crosshair;
+}
+
+#form-section input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+#results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#results-table th,
+#results-table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#results-table thead {
+    background-color: black;
+    color: white;
+}
+
+#results-table tbody tr:nth-child(odd) {
+    background-color: green;
+}
+
+#results-table tbody tr:hover {
+    background-color:red;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
